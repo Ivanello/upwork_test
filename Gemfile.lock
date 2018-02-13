@@ -1,0 +1,32 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    childprocess (0.8.0)
+      ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.2)
+    ffi (1.9.21)
+    method_source (0.9.0)
+    power_assert (1.1.1)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.9.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.2)
+    test-unit (3.2.7)
+      power_assert
+    watir (6.10.3)
+      selenium-webdriver (~> 3.4, >= 3.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  selenium-webdriver
+  test-unit
+  watir
+
+BUNDLED WITH
+   1.16.1

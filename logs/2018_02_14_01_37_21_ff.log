@@ -1,0 +1,136 @@
+# Logfile created on 2018-02-14 01:37:21 +0200 by logger.rb/61378
+I, [2018-02-14T01:37:21.210666 #4845]  INFO -- : Add ./bin folder with webdrivers to PATH environment variable
+I, [2018-02-14T01:37:21.210827 #4845]  INFO -- : Keyword to search is: 'selenium'
+I, [2018-02-14T01:37:21.210846 #4845]  INFO -- : Starting browser 'ff'
+I, [2018-02-14T01:37:23.152710 #4845]  INFO -- : Browser: clear cookie
+I, [2018-02-14T01:37:23.156797 #4845]  INFO -- : Browser: maximize window
+I, [2018-02-14T01:37:26.667515 #4845]  INFO -- : Browser: open http://upwork.com
+I, [2018-02-14T01:37:39.330333 #4845]  INFO -- : FreelancerSearchTest start
+I, [2018-02-14T01:37:39.330432 #4845]  INFO -- : HomePage: wait to load page
+I, [2018-02-14T01:37:39.345607 #4845]  INFO -- : HomePage: select search source to: 'freelancers'
+I, [2018-02-14T01:37:39.819957 #4845]  INFO -- : HomePage: search for  selenium
+I, [2018-02-14T01:37:40.902153 #4845]  INFO -- : FrSearchResultsPage: wait to load page
+I, [2018-02-14T01:37:47.000180 #4845]  INFO -- : FrSearchResultsPage: parsing freelancers
+I, [2018-02-14T01:37:47.970585 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.970640 #4845]  INFO -- : Freelancer: Title contains 'selenium': true
+I, [2018-02-14T01:37:47.970682 #4845]  INFO -- : Freelancer: Description contains 'selenium': false
+I, [2018-02-14T01:37:47.970695 #4845]  INFO -- : Freelancer: Skills contains 'selenium': true
+I, [2018-02-14T01:37:47.970706 #4845]  INFO -- : Freelancer: Name: Alexander V.
+I, [2018-02-14T01:37:47.970716 #4845]  INFO -- : Freelancer: Title: QA engineer + ISTQB + Selenium automation
+I, [2018-02-14T01:37:47.970730 #4845]  INFO -- : Freelancer: Desc: I was born to test. Having overall 5+ years of working experience; Expertise in automated testing; GUI, functional, configuration; requirements testing. Durin ...
+I, [2018-02-14T01:37:47.970746 #4845]  INFO -- : Freelancer: Skills: ["Selenium", "Selenium WebDriver", "Automated Testing", "Continuous Integration"]
+I, [2018-02-14T01:37:47.970756 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.970777 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.970788 #4845]  INFO -- : Freelancer: Title contains 'selenium': true
+I, [2018-02-14T01:37:47.970798 #4845]  INFO -- : Freelancer: Description contains 'selenium': true
+I, [2018-02-14T01:37:47.970807 #4845]  INFO -- : Freelancer: Skills contains 'selenium': false
+I, [2018-02-14T01:37:47.970816 #4845]  INFO -- : Freelancer: Name: Rahul B.
+I, [2018-02-14T01:37:47.970827 #4845]  INFO -- : Freelancer: Title: QA Engineer | Selenium Webdriver Expert
+I, [2018-02-14T01:37:47.970837 #4845]  INFO -- : Freelancer: Desc: Are you looking for QA engineer with Automation Experience? Then you are at right profile, Let us talk in detail about your requirements. Selenium Webdriver | ...
+I, [2018-02-14T01:37:47.970849 #4845]  INFO -- : Freelancer: Skills: ["Software Testing", "Automated Testing", "Selenium WebDriver", "Mobile App Testing"]
+I, [2018-02-14T01:37:47.970858 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.971904 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.971934 #4845]  INFO -- : Freelancer: Title contains 'selenium': false
+I, [2018-02-14T01:37:47.971948 #4845]  INFO -- : Freelancer: Description contains 'selenium': false
+I, [2018-02-14T01:37:47.971960 #4845]  INFO -- : Freelancer: Skills contains 'selenium': false
+I, [2018-02-14T01:37:47.971970 #4845]  INFO -- : Freelancer: Name: Soorya D.
+I, [2018-02-14T01:37:47.971980 #4845]  INFO -- : Freelancer: Title: Web/Mobile/Web Service - Utility Tools Development/ Automation Expert
+I, [2018-02-14T01:37:47.971990 #4845]  INFO -- : Freelancer: Desc: ✅ Top Rated on Upwork ✅ 5 Star client's Feedback ✅ High Client Recommendations ✅ 100% Job Success Rate * Last 10+ years, I have been testing and automating ap ...
+I, [2018-02-14T01:37:47.972006 #4845]  INFO -- : Freelancer: Skills: ["Selenium WebDriver", "Behavior Driven Development (BDD)", "Automation", "Data Scraping"]
+I, [2018-02-14T01:37:47.972037 #4845]  INFO -- : No matches!
+I, [2018-02-14T01:37:47.972049 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.972071 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.972082 #4845]  INFO -- : Freelancer: Title contains 'selenium': false
+I, [2018-02-14T01:37:47.972093 #4845]  INFO -- : Freelancer: Description contains 'selenium': true
+I, [2018-02-14T01:37:47.972104 #4845]  INFO -- : Freelancer: Skills contains 'selenium': true
+I, [2018-02-14T01:37:47.972114 #4845]  INFO -- : Freelancer: Name: Bryan J.
+I, [2018-02-14T01:37:47.972149 #4845]  INFO -- : Freelancer: Title: Protractor and Nightwatch Automated Test Creation
+I, [2018-02-14T01:37:47.972159 #4845]  INFO -- : Freelancer: Desc: I have been creating automation using software suites or Javascript Selenium libraries for almost ten years. I create entire test suites, from the planning stag ...
+I, [2018-02-14T01:37:47.972173 #4845]  INFO -- : Freelancer: Skills: ["Automated Testing", "Selenium", "JavaScript", "Selenium WebDriver"]
+I, [2018-02-14T01:37:47.972183 #4845]  INFO -- : No matches!
+I, [2018-02-14T01:37:47.972192 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.972214 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.972225 #4845]  INFO -- : Freelancer: Title contains 'selenium': false
+I, [2018-02-14T01:37:47.972236 #4845]  INFO -- : Freelancer: Description contains 'selenium': true
+I, [2018-02-14T01:37:47.972246 #4845]  INFO -- : Freelancer: Skills contains 'selenium': false
+I, [2018-02-14T01:37:47.972256 #4845]  INFO -- : Freelancer: Name: Sourabh S.
+I, [2018-02-14T01:37:47.972265 #4845]  INFO -- : Freelancer: Title: Senior Test Automation QA
+I, [2018-02-14T01:37:47.972274 #4845]  INFO -- : Freelancer: Desc: Total 8 years of strong experience in developing Test Automation Frameworks on different tools, Excel Macros, Automation tools: QTP / UFT, Selenium, Coded UI, ...
+I, [2018-02-14T01:37:47.972288 #4845]  INFO -- : Freelancer: Skills: ["Scripts & Utilities", "Selenium WebDriver", "HP QuickTest Professional (HPQTP)", "Excel VBA"]
+I, [2018-02-14T01:37:47.972298 #4845]  INFO -- : No matches!
+I, [2018-02-14T01:37:47.972307 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.972327 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.972338 #4845]  INFO -- : Freelancer: Title contains 'selenium': true
+I, [2018-02-14T01:37:47.972348 #4845]  INFO -- : Freelancer: Description contains 'selenium': false
+I, [2018-02-14T01:37:47.972358 #4845]  INFO -- : Freelancer: Skills contains 'selenium': false
+I, [2018-02-14T01:37:47.972368 #4845]  INFO -- : Freelancer: Name: Surendra Mohan J.
+I, [2018-02-14T01:37:47.972377 #4845]  INFO -- : Freelancer: Title: Selenium,Appium,UiPath,BluePrism,JMeter,Mobile App Testing, Framework
+I, [2018-02-14T01:37:47.972387 #4845]  INFO -- : Freelancer: Desc: 17 years experienced test architect with rich experience in Design and develop the Test automation, Performance, Penetration Testing Solutions and frameworks d ...
+I, [2018-02-14T01:37:47.972400 #4845]  INFO -- : Freelancer: Skills: ["Software Testing", "Test Automation", "Mobile App Testing", "Performance Testing"]
+I, [2018-02-14T01:37:47.972410 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.972440 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.972452 #4845]  INFO -- : Freelancer: Title contains 'selenium': false
+I, [2018-02-14T01:37:47.972462 #4845]  INFO -- : Freelancer: Description contains 'selenium': false
+I, [2018-02-14T01:37:47.972471 #4845]  INFO -- : Freelancer: Skills contains 'selenium': false
+I, [2018-02-14T01:37:47.972481 #4845]  INFO -- : Freelancer: Name: Amit E.
+I, [2018-02-14T01:37:47.972490 #4845]  INFO -- : Freelancer: Title: Professional Software Developer
+I, [2018-02-14T01:37:47.972499 #4845]  INFO -- : Freelancer: Desc: A technology enthusiast based in the US with experience in both the IT world and in the Social Sciences, I have dedicated the past 5 years to developing and imp ...
+I, [2018-02-14T01:37:47.972519 #4845]  INFO -- : Freelancer: Skills: ["Python", "Django", "Scrapy", "Web Crawling"]
+I, [2018-02-14T01:37:47.972530 #4845]  INFO -- : No matches!
+I, [2018-02-14T01:37:47.972540 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.972576 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.972588 #4845]  INFO -- : Freelancer: Title contains 'selenium': false
+I, [2018-02-14T01:37:47.972598 #4845]  INFO -- : Freelancer: Description contains 'selenium': true
+I, [2018-02-14T01:37:47.972608 #4845]  INFO -- : Freelancer: Skills contains 'selenium': false
+I, [2018-02-14T01:37:47.972618 #4845]  INFO -- : Freelancer: Name: Charlton A.
+I, [2018-02-14T01:37:47.972627 #4845]  INFO -- : Freelancer: Title: Python Programmer with Data Mining experience
+I, [2018-02-14T01:37:47.972636 #4845]  INFO -- : Freelancer: Desc: Python programmer with experience in Data Mining .I can leverage Web Scraping tools such as Selenium, PhantomJS and BeautifulSoup to automate complex extractio ...
+I, [2018-02-14T01:37:47.972649 #4845]  INFO -- : Freelancer: Skills: ["Python", "Microsoft Excel", "Unix", "Scripts & Utilities"]
+I, [2018-02-14T01:37:47.972659 #4845]  INFO -- : No matches!
+I, [2018-02-14T01:37:47.972668 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.972692 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.972703 #4845]  INFO -- : Freelancer: Title contains 'selenium': false
+I, [2018-02-14T01:37:47.972713 #4845]  INFO -- : Freelancer: Description contains 'selenium': false
+I, [2018-02-14T01:37:47.972723 #4845]  INFO -- : Freelancer: Skills contains 'selenium': false
+I, [2018-02-14T01:37:47.972732 #4845]  INFO -- : Freelancer: Name: Devico Solutions LTD
+I, [2018-02-14T01:37:47.972741 #4845]  INFO -- : Freelancer: Title: Best Agency 2017 Upwork's Award! Full-stack JavaScript Development for Web and Mobile - React.js, Redux, React Native, Vue.js, Angular, Node.js, Express, Koa, Meteor | QA for Web, Mobile, API - , Appium, Protractor, Robot Framework etc
+I, [2018-02-14T01:37:47.972752 #4845]  INFO -- : Freelancer: Desc: We are the Best Agency 2017 in Kiev according to Upwork's rating. ✅ 250 000 hours on Upwork ✅ TOP rated experts, 100% Job Success Rate ✅ 10+ years of exper ...
+I, [2018-02-14T01:37:47.972765 #4845]  INFO -- : Freelancer: Skills: ["Selenium WebDriver", "Appium", "JMeter", "Test Automation"]
+I, [2018-02-14T01:37:47.972775 #4845]  INFO -- : No matches!
+I, [2018-02-14T01:37:47.972784 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.972803 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:47.972852 #4845]  INFO -- : Freelancer: Title contains 'selenium': false
+I, [2018-02-14T01:37:47.972863 #4845]  INFO -- : Freelancer: Description contains 'selenium': false
+I, [2018-02-14T01:37:47.972872 #4845]  INFO -- : Freelancer: Skills contains 'selenium': false
+I, [2018-02-14T01:37:47.972882 #4845]  INFO -- : Freelancer: Name: Haviz V.
+I, [2018-02-14T01:37:47.972891 #4845]  INFO -- : Freelancer: Title: Python and Django Expert
+I, [2018-02-14T01:37:47.972900 #4845]  INFO -- : Freelancer: Desc: I'm Haviz Vaisal, web developer from Indonesia with special interest on back-end development. 6+ years of experience working on Python and Web Development (Djan ...
+I, [2018-02-14T01:37:47.972913 #4845]  INFO -- : Freelancer: Skills: ["Python", "Django", "PostgreSQL Administration", "MySQL Administration"]
+I, [2018-02-14T01:37:47.972923 #4845]  INFO -- : No matches!
+I, [2018-02-14T01:37:47.972932 #4845]  INFO -- :  
+I, [2018-02-14T01:37:47.972961 #4845]  INFO -- : FrSearchResultsPage: open freelancer #0 in list
+I, [2018-02-14T01:37:52.290683 #4845]  INFO -- : FrDetailsPage: wait to load page
+I, [2018-02-14T01:37:52.420957 #4845]  INFO -- : FrDetailsPage: parse freelancer
+I, [2018-02-14T01:37:52.891191 #4845]  INFO -- : FrDetailsPage: comparing attributes of two freelancers
+I, [2018-02-14T01:37:52.891473 #4845]  INFO -- : Freelancer: Title eql?: true
+I, [2018-02-14T01:37:52.891514 #4845]  INFO -- : Freelancer: Description eql?: true
+I, [2018-02-14T01:37:52.891548 #4845]  INFO -- : Freelancer: Skills eql?: true
+I, [2018-02-14T01:37:52.891569 #4845]  INFO -- : Freelancer: Random Name: Alexander V.
+I, [2018-02-14T01:37:52.891585 #4845]  INFO -- : Freelancer: Found Name: Alexander V.
+I, [2018-02-14T01:37:52.891600 #4845]  INFO -- : Freelancer: Random Title: QA engineer + ISTQB + Selenium automation
+I, [2018-02-14T01:37:52.891612 #4845]  INFO -- : Freelancer: Found Title: QA engineer + ISTQB + Selenium automation
+I, [2018-02-14T01:37:52.891639 #4845]  INFO -- : Freelancer: Random Skills: ["Selenium", "Selenium WebDriver", "Automated Testing", "Continuous Integration", "Manual Test Execution", "Black Box Testing", "Functional Testing", "Load Testing", "Performance Testing", "Software Testing"]
+I, [2018-02-14T01:37:52.891658 #4845]  INFO -- : Freelancer: Found Skills: ["Selenium", "Selenium WebDriver", "Automated Testing", "Continuous Integration"]
+I, [2018-02-14T01:37:52.891670 #4845]  INFO -- :  
+I, [2018-02-14T01:37:52.891780 #4845]  INFO -- : Freelancer: checking freelancer attributes contain keyword 'selenium'
+I, [2018-02-14T01:37:52.891810 #4845]  INFO -- : Freelancer: Title contains 'selenium': true
+I, [2018-02-14T01:37:52.891823 #4845]  INFO -- : Freelancer: Description contains 'selenium': false
+I, [2018-02-14T01:37:52.891835 #4845]  INFO -- : Freelancer: Skills contains 'selenium': true
+I, [2018-02-14T01:37:52.891846 #4845]  INFO -- : Freelancer: Name: Alexander V.
+I, [2018-02-14T01:37:52.891856 #4845]  INFO -- : Freelancer: Title: QA engineer + ISTQB + Selenium automation
+I, [2018-02-14T01:37:52.891877 #4845]  INFO -- : Freelancer: Desc: I was born to test. 
+Having overall 5+ years of working experience; Expertise in automated testing; GUI, functional, configuration; requirements testing. 
+During my carrier I created a big number of automation test suites from scratches. I played Automation Architecture role on several projects. 
+Also I am proficient in manual testing and planning activities. I have ISTQB certificate. I really love my job :-)
+I, [2018-02-14T01:37:52.891898 #4845]  INFO -- : Freelancer: Skills: ["Selenium", "Selenium WebDriver", "Automated Testing", "Continuous Integration", "Manual Test Execution", "Black Box Testing", "Functional Testing", "Load Testing", "Performance Testing", "Software Testing"]
+I, [2018-02-14T01:37:52.891925 #4845]  INFO -- :  
