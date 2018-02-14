@@ -5,10 +5,12 @@ require 'logger'
 
 class BaseTest < Test::Unit::TestCase
 
-  # @@browser = :ARGV[0]
-  # @@keyword = ARGV[1]
-  @@browser = :ff
-  @@keyword = 'angular'
+  @@browser = :ARGV[0]
+  @@keyword = ARGV[1]
+  # for debugging in Rubymine
+  # TODO: move browser, keyword parameters to environment variable
+  # @@browser = :ff
+  # @@keyword = 'angular'
   @@base_url = 'http://upwork.com'
 
   def setup
@@ -28,8 +30,6 @@ class BaseTest < Test::Unit::TestCase
     else
       @driver = Selenium::WebDriver.for :chrome
     end
-
-    # @driver = Selenium::WebDriver.for :chrome
 
     @@wait = Selenium::WebDriver::Wait.new(:timeout => 20)
 
