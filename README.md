@@ -1,7 +1,7 @@
 # Upwork Search freelancer test #
 
 ## Setup:
-* Install [Ruby](https://www.ruby-lang.org) (>2.2.2)
+* Install [Ruby](https://www.ruby-lang.org) (>2.4)
 * `git clone https://github.com/Ivanello/upwork_test`
 * `cd upwork_test`
 * `bundler` to install the project dependancies
@@ -13,6 +13,6 @@
 `<browser>` chrome, ff, firefox, safari
 `<keyword>` keyword for search
 
-###Example:
+### Example:
 
-`ruby test/freelancer_search_test.rb chrome ruby`
+`ruby test/freelancer_search_test.rb chrome angular`

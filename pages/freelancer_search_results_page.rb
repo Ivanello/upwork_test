@@ -17,6 +17,8 @@ class FreelancerSearchResultsPage < BasePage
     sleep(3)
   end
 
+  # 6. Parse the 1st page with search results: store info given on the 1st page of search results as structured data
+  # of any chosen by you type (i.e. hash of hashes or array of hashes, whatever structure handy to be parsed).
   def parse_freelancers
     $logger.info("FrSearchResultsPage: parsing freelancers")
     @freelancers=[]
@@ -34,20 +36,12 @@ class FreelancerSearchResultsPage < BasePage
 
   def check_attributes_contain(kwd)
     @freelancers.each do |freelancer|
-      freelancer.check_attributes_contain(kwd)
+      freelancer.any_attributes_contain(kwd)
     end
   end
 
-  # this method help us avoid agencies profiles
-  def get_random_freelancer(freelancers_list)
-    begin
-      random = rand(0..freelancers_list.size-1)
-      puts (random)
-    end while all_freelancers_block[random].find_element(:class, "freelancer-tile-name").attribute("href").include? "company"
-    random
-  end
-
-  #this method hepls us to open jusn freelancer profile mot agenies
+  # 9. Click on random freelancer's title
+  #this method hepls us to open just freelancer profile not agenies
   def open_freelancer_by_number(number_of_freelancer)
     $logger.info("FrSearchResultsPage: open freelancer ##{number_of_freelancer} in list")
     all_freelancers_block[number_of_freelancer].find_element(:xpath, './/a[contains(@href,"/o/profiles/users/")]').click

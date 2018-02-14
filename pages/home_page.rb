@@ -23,12 +23,15 @@ class HomePage < BasePage
     @wait.until { @driver.find_element(:class, 'footer-logos').displayed? }
   end
 
+  # 4. Focus onto "Find freelancers"
   def choose_source_to_search(source)
     $logger.info("HomePage: select search source to: '#{source}'")
     search_source_menu.click
     search_source_name(source).click
   end
 
+  # 5. Enter `<keyword>` into the search input right from the dropdown and submit it (click on the magnifying glass
+  # button)
   def search(keyword)
     $logger.info("HomePage: search for  #{keyword}")
     search_field.send_keys keyword

@@ -30,13 +30,14 @@ class FreelancerDetailsPage < BasePage
     @wait.until {@driver.find_element(:xpath, "//div[@id='optimizely-header-container-default']//span[@itemprop='name']").displayed?}
   end
 
+    # 10. Get into that freelancer's profile
   def open_more_details
     if more_details_link.any?
       $logger.info("FrDetailsPage: open more details")
       more_details_link[0].click
     end
   end
-
+    # 10. Get into that freelancer's profile
   def parse_freelancer_details
     $logger.info("FrDetailsPage: parse freelancer")
     @freelancer = (Freelancer.new(
@@ -48,10 +49,7 @@ class FreelancerDetailsPage < BasePage
     @freelancer
   end
 
-  def check_freelancer_attributes_contain(kwd)
-    @freelancer.check_attributes_contain(kwd)
-  end
-
+  #11. Check that each attribute value is equal to one of those stored in the structure created in #67
   def compare_random_fr_with_found_fr(found_freelancer)
       $logger.info("FrDetailsPage: comparing attributes of two freelancers")
 
@@ -60,16 +58,18 @@ class FreelancerDetailsPage < BasePage
       skills_contains = (found_freelancer.skills - @freelancer.skills).empty?
       matches = (title_eql and name_eql and skills_contains)
 
-      $logger.info("Freelancer: Title eql?: #{!!title_eql}")
-      $logger.info("Freelancer: Description eql?: #{!!name_eql}")
-      $logger.info("Freelancer: Skills eql?: #{!!skills_contains}")
+      $logger.info("FrDetailsPage: Name eql?: #{!!name_eql}")
+      $logger.info("FrDetailsPage: Title eql?: #{!!title_eql}")
+      $logger.info("FrDetailsPage: Skills eql?: #{!!skills_contains}")
 
-      $logger.info("Freelancer: Random Name: #{@freelancer.name}")
-      $logger.info("Freelancer: Found Name: #{found_freelancer.name}")
-      $logger.info("Freelancer: Random Title: #{@freelancer.title}")
-      $logger.info("Freelancer: Found Title: #{found_freelancer.title}")
-      $logger.info("Freelancer: Random Skills: #{@freelancer.skills}")
-      $logger.info("Freelancer: Found Skills: #{found_freelancer.skills}")
+      $logger.info("FrDetailsPage: Random Name: #{@freelancer.name}")
+      $logger.info("FrDetailsPage: Found Name: #{found_freelancer.name}")
+      $logger.info("FrDetailsPage: Random Title: #{@freelancer.title}")
+      $logger.info("FrDetailsPage: Found Title: #{found_freelancer.title}")
+      $logger.info("FrDetailsPage: Random Skills: #{@freelancer.skills}")
+      $logger.info("FrDetailsPage: Found Skills: #{found_freelancer.skills}")      
+      # $logger.info("FrDetailsPage: Description Skills: #{@freelancer.description}")
+      # $logger.info("FrDetailsPage: Description Skills: #{found_freelancer.description}")
 
       $logger.info("No matches!") if !matches
       $logger.info("\s")

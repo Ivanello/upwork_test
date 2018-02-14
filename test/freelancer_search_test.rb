@@ -9,6 +9,7 @@ require_relative '../pages/freelancer_details_page'
 
 class FreelancerSearchTest < BaseTest
   def test_freelancer_search
+
     $logger.info("FreelancerSearchTest start")
 
     home_page = HomePage.new(@driver, @logger)
@@ -19,8 +20,11 @@ class FreelancerSearchTest < BaseTest
     assert(results_page.loaded?, "Search result page failed to load")
 
     found_freelancers = results_page.parse_freelancers
-    results_page.check_attributes_contain(@@keyword)
+    found_freelancers.each do |freelancer|
+      freelancer.any_attributes_contain(@@keyword)
+    end
 
+    results_page.check_attributes_contain(@@keyword)
     random_freelancer_number = rand(10)
     details_page = results_page.open_freelancer_by_number(random_freelancer_number)
     assert(details_page.loaded?, "Freelancer details page failed to load")
@@ -29,7 +33,7 @@ class FreelancerSearchTest < BaseTest
 
     assert(details_page.compare_random_fr_with_found_fr(found_freelancers[random_freelancer_number]),
            "Detailed page DIDN'T contains all data from search page")
-    assert(random_freelancer.check_attributes_contain(@@keyword), "Random freelancer details did't have '#{@@keyword}")
+    assert(random_freelancer.any_attributes_contain(@@keyword), "Random freelancer details did't have '#{@@keyword}")
   end
 end
 

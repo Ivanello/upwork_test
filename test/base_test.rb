@@ -5,10 +5,10 @@ require 'logger'
 
 class BaseTest < Test::Unit::TestCase
 
-  @@browser = :ARGV[0]
-  @@keyword = ARGV[1]
-  # @@browser = :ff
-  # @@keyword = 'selenium'
+  # @@browser = :ARGV[0]
+  # @@keyword = ARGV[1]
+  @@browser = :ff
+  @@keyword = 'angular'
   @@base_url = 'http://upwork.com'
 
   def setup
